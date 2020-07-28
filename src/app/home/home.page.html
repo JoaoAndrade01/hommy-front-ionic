@@ -6,8 +6,10 @@
         <ion-title>hommy</ion-title>
     </ion-toolbar>
 </ion-header>
-
 <ion-content>
+
+
+
     <div class="padding">
         <center>
             <div class="card" id="1">
@@ -79,6 +81,23 @@
                 </p>
                 <p>
                     Aluguel(quarto) R$700,00
+                </p>
+                <br><br><br><br>
+            </div>
+            <div class="card" id="5_6_7_8" *ngFor="let republic of republics">
+                <br><br><br><br>
+                <br>
+                <p>
+                    {{republic.endereco}}
+                </p>
+                <p>
+                    {{republic.tamanho}}
+                </p>
+                <p>
+                    {{republic.quartos}}
+                </p>
+                <p>
+                    {{republic.valor}}
                 </p>
                 <br><br><br><br>
             </div>
